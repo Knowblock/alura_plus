@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  --main-text: #ffffff;
+  --Grey-color: #c0c0c0;
+  --text-color: #f9f9f9;
+  --button-color: #167bf7;
+  --background-color: #00030c;
+
+  --font-main: "inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-text);
+  font-family: var(--font-main);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.content {
+  background-image: url(/Assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.main__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.main__logo {
+  margin: 1.37em 0 3.37em 0;
+}
+
+.content__solid__button {
+  background-color: var(--button-color);
+  border-radius: 8px;
+  padding: 1em;
+  color: var(--main-text);
+  text-decoration: none;
+  display: block;
+  margin: 1em;
+  text-align: center;
+}
+
+.secondary__button {
+  background-color: transparent;
+  border: 2px solid var(--main-text);
+}
+
+.content__aviso {
+  font-size: 0.75rem;
+  color: Var(--Grey-color);
+  text-align: center;
+}
+
+.main__position {
+  margin: 0 6em;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 12em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.descricao__title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: start;
+  margin-bottom: 0.1em;
+}
+
+.descricao__text {
+  color: var(--Grey-color);
+  margin-right: 10em;
+}
+
+.terceira__button {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--main-text);
+}
+
+.dispositivos__lista {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+  color: var(--main-text);
+}
+
+.lista__item {
+  font-size: 2rem;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.list__link {
+  margin: 1em;
+}
+
+.list__link a{
+  text-decoration: none;
+  color: var(--main-text);
+}
+
+.list__link a:hover{
+  color: var(--button-color);
+}
+
+.footer__text{
+  font-size: 0.875rem;
+  color: var(--Grey-color);
+  margin: 1em;
+}
+
+.footer{
+  border-bottom: 6.18rem solid #00030C;
+}
